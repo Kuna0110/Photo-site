@@ -24,17 +24,24 @@
     margin-bottom: 10px;
   }
   .card-list {
-    column-count: 3;
-    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 1127px;
+    max-width: 100%;
+
+    /*column-count: 4;*/
   }
   .card {
-    margin-bottom: 10px;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
 }
 
 .card--image {
     flex: 100%;
-    margin-top: 1rem;
     border-radius: 10px;
 }
 @media (min-width: 768px) {

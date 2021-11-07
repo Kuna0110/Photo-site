@@ -48,16 +48,19 @@ export default function PhotoSearch() {
 
       <Container>
         <div className="card-list">
-          {pics.map((pic) =>
+          {
+          pics.map((pic) =>
             <div className="card" key={pic.id}>
               <img
                 className="card--image"
                 alt={pic.alt_description}
-                src={pic.urls.thumb}
+                src={pic.urls.small}
                 width="50%"
                 height="50%"
+                alt="Photo"
               ></img>
-            </div>)}
+            </div>)
+            }
         </div>
       </Container>
     </>
