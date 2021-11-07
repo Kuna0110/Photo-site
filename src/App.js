@@ -10,9 +10,7 @@ function App() {
     <div>
       <Container>
         <Menu />
-
         <Header as='h1'>React Photo Search - API Unsplash</Header>
-
         <PhotoSearch />
       </Container>
     </div>

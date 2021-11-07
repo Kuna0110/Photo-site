@@ -6,6 +6,9 @@
   .container {
     padding: 20px;
   }
+  .header {
+    text-align: center;
+  }
   .form {
     display: grid;
   }

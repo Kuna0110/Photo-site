@@ -17,13 +17,11 @@ export default function PhotoSearch() {
     unsplash.search.getPhotos({
       query: (query),
       page: 1,
-      perPage: 20,
-      color: 'green',
-      orientation: 'portrait',
+      perPage: 10,
     })
     .then((json) => {
       setPics(json.response.results);
-      console.log(json);
+      //console.log(json);
     });
   };
 
